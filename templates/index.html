@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HR Recruitment Submission Portal</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body{
+background:#f4f6f9;
+}
+
+.hero{
+padding:60px;
+text-align:center;
+background:#2c3e50;
+color:white;
+}
+
+.upload-card{
+margin-top:-40px;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="/">HR Recruitment Portal</a>
+
+    <div>
+      <a href="/" class="btn btn-outline-light me-2">Home</a>
+      <a href="/dashboard" class="btn btn-warning">Dashboard</a>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+<h1>HR Recruitment Submission Portal</h1>
+<p>Submit your job application and track your application ID</p>
+</div>
+
+<div class="container upload-card">
+
+<div class="row justify-content-center">
+
+<div class="col-md-6">
+
+<div class="card shadow p-4">
+
+<h4 class="mb-3">Submit Application</h4>
+
+<form action="/upload" method="POST" enctype="multipart/form-data">
+
+<div class="mb-3">
+<label class="form-label">Name</label>
+<input type="text" name="name" class="form-control" required>
+</div>
+
+<div class="mb-3">
+<label class="form-label">Email</label>
+<input type="email" name="email" class="form-control" required>
+</div>
+
+<div class="mb-3">
+<label class="form-label">Phone Number</label>
+<input type="text" name="phone" class="form-control" required>
+</div>
+
+<div class="mb-3">
+<label class="form-label">Position Applied</label>
+<select name="position" class="form-control" required>
+<option>Flutter Developer</option>
+<option>HR Executive</option>
+<option>Software Engineer</option>
+<option>Data Analyst</option>
+</select>
+</div>
+
+<div class="mb-3">
+<label class="form-label">Upload Resume</label>
+<input type="file" name="resume" class="form-control" required>
+</div>
+
+<button class="btn btn-primary w-100">Submit Application</button>
+
+</form>
+
+<br>
+
+<a href="/dashboard" class="btn btn-outline-dark w-100">Admin Dashboard</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<br><br>
+
+<div class="container">
+
+<h3 class="mb-3">How it Works</h3>
+
+<div class="row">
+
+<div class="col-md-3">
+<div class="card p-3 shadow">
+<h5>Upload</h5>
+<p>Upload your dataset securely</p>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card p-3 shadow">
+<h5>Job ID</h5>
+<p>System generates a unique job ID</p>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card p-3 shadow">
+<h5>Processing</h5>
+<p>AI models analyze your dataset</p>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card p-3 shadow">
+<h5>Results</h5>
+<p>Results are delivered via dashboard</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<br><br>
+
+<div class="container mt-5">
+
+<h2 class="text-center mb-4">Platform Features</h2>
+
+<div class="row text-center">
+
+<div class="col-md-4">
+<div class="card shadow p-4">
+<h5>Secure Application Submission</h5>
+<p>Upload resume and documents safely.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow p-4">
+<h5>Automatic Application ID</h5>
+<p>Each candidate receives a unique tracking ID.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow p-4">
+<h5>Recruitment Dashboard</h5>
+<p>HR team can track candidate submissions.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<footer class="bg-dark text-white text-center p-3 mt-5">
+© 2026 HR Recruitment Submission Portal | Built with Flask
+</footer>
+
+</body>
+</html>
