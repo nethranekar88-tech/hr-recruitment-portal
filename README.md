@@ -24,18 +24,14 @@ A professional web application that allows candidates to submit job applications
 ### 1. Home Page
 Shows the landing page with the application form, features section, and navigation navbar.
 
-### 2. Application Form
-Clean form for candidates to enter:
-- Full Name
-- Email
-- Phone Number
-- Position Applied (dropdown)
-- Resume Upload
+![Home Page](/home_page.png.png)
 
-### 3. Success Page
+### 2. Success Page
 Displays the unique Application ID after successful submission.
 
-### 4. HR Dashboard
+![Success Page](/result_page.png.png)
+
+### 3. HR Dashboard
 Shows all submitted applications in a professional table format with:
 - Application ID
 - Candidate Name
@@ -43,6 +39,8 @@ Shows all submitted applications in a professional table format with:
 - Phone Number
 - Position Applied
 - Resume File
+
+![HR Dashboard](/hr_dashboard.png.png)
 
 ## 🚀 Getting Started
 
