@@ -151,6 +151,6 @@ This project is open source and available under the MIT License.
 
 ---
 
-**Built with ❤️ using Flutter & Firebase**
+**Built with ❤️ using Flutter, Firebase & Flask**
 
 *Last Updated: March 2026*
