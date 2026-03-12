@@ -12,13 +12,6 @@ A professional web application that allows candidates to submit job applications
 - ✅ **Responsive Design** - Works on desktop, tablet, and mobile devices
 - ✅ **Professional UI** - Bootstrap-based modern interface
 
-## 🛠️ Tech Stack
-
-- **Backend:** Python, Flask
-- **Frontend:** HTML5, CSS3, Bootstrap 5
-- **Storage:** CSV
-- **Design:** Bootstrap 5, Custom CSS
-
 ## 📸 Screenshots
 
 ### 1. Home Page
@@ -41,6 +34,13 @@ Shows all submitted applications in a professional table format with:
 - Resume File
 
 ![HR Dashboard](/hr_dashboard.png.png)
+
+## 🛠️ Tech Stack
+
+- **Backend:** Python, Flask
+- **Frontend:** HTML5, CSS3, Bootstrap 5
+- **Storage:** CSV
+- **Design:** Bootstrap 5, Custom CSS
 
 ## 🚀 Getting Started
 
@@ -141,13 +141,16 @@ a1b2c3d4, John Doe, john@example.com, 9876543210, Flutter Developer, a1b2c3d4_re
 
 ## 👨‍💻 Author
 
-**Neth Ranekar**
-- GitHub: [@nethranekar-dev](https://github.com/nethranekar-dev)
+## 📞 Support
+
+Report issues on GitHub: https://github.com/nethranekar88-tech/hr-recruitment-portal/issues
 
 ## 📄 License
 
 This project is open source and available under the MIT License.
 
-## 💬 Contact
+---
 
-For questions or feedback, please open an issue on GitHub.
+**Built with ❤️ using Flutter & Firebase**
+
+*Last Updated: March 2026*
